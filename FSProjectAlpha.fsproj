@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="input11.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="Utils\Files.fs" />
+    <Compile Include="Day1\Solver.fs" />
+    <Content Include="Day1\sample.txt" />
+    <Compile Include="Samples\TestSamples.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 

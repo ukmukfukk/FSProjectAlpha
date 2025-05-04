@@ -12,10 +12,10 @@
     <Content Include="Samples\input7.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Samples\input3.txt">
+    <Content Include="Samples\input2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Samples\Sample3.txt">
+    <Content Include="Samples\Sample2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Samples\Sample1.txt">
@@ -26,7 +26,7 @@
     </Content>
     <Compile Include="Utils.fs" />
     <Compile Include="Day1.fs" />
-    <Compile Include="Day3.fs" />
+    <Compile Include="Day2.fs" />
     <Compile Include="Day7.fs" />
 	<Compile Include="TestSamples.fsx" />
     <Compile Include="Program.fs" />

@@ -9,7 +9,7 @@
     <Content Include="Samples\Sample1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Samples\input11.txt">
+    <Content Include="Samples\input1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Compile Include="Utils.fs" />

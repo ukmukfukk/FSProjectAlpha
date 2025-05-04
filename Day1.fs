@@ -3,7 +3,7 @@
 open Utils
 open Utils.Railway
 
-let verticallists (lines:string list) =
+let private verticallists (lines:string list) =
     try
         let column1, column2 = 
             lines             

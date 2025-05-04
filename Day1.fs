@@ -35,10 +35,14 @@ let private countleftinright (l1:int list, l2:int list) =
     countrec 0 l1 l2count
 
 let solve1 inputfilename = 
-    inputfilename |> readLines >>= verticallists >>> sortlists >>> difflist
+    inputfilename 
+    |> readLines
+    >>= verticallists
+    >>> sortlists
+    >>> difflist
 
 let solve2 inputfilename = 
-    inputfilename |> readLines >>= verticallists >>> countleftinright
-
-
-
+    inputfilename
+    |> readLines
+    >>= verticallists
+    >>> countleftinright

@@ -1,6 +1,8 @@
 ﻿#load "Utils.fs"
 #load "Day1.fs"
 #load "Day3.fs"
+#load "Day7.fs"
+
 open Utils
 
 let expected11 = 11

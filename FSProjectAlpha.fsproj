@@ -6,6 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Samples\Sample7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Samples\input7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Samples\input3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -21,6 +27,7 @@
     <Compile Include="Utils.fs" />
     <Compile Include="Day1.fs" />
     <Compile Include="Day3.fs" />
+    <Compile Include="Day7.fs" />
 	<Compile Include="TestSamples.fsx" />
     <Compile Include="Program.fs" />
   </ItemGroup>

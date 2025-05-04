@@ -17,3 +17,6 @@ evaluate Day3.solve2 "Samples\Sample3.txt" expected32 "Day3 puzzle 2"
 
 let expected71 = 3749
 evaluate Day7.solve1 "Samples\Sample7.txt" expected71 "Day7 puzzle 1"
+
+let expected72 = 11387
+evaluate Day7.solve2 "Samples\Sample7.txt" expected72 "Day7 puzzle 2"

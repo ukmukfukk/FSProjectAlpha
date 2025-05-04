@@ -1,13 +1,9 @@
 ﻿#load "Utils.fs"
 #load "Day1.fs"
-open Day1
+open Utils
 
-let expected1_1 = 11
-let day1result1 = Day1.solve1 "Samples\Sample1.txt"
+let expected11 = 11
+evaluate Day1.solve1 "Samples\Sample1.txt" expected11 "Day1 puzzle 1"
 
-printfn "Checking Day1 puzzle 1"
-match day1result1 with
-| Ok value when value = expected1_1 -> "Success"
-| Ok value -> sprintf "Value is %A, while expected is %A" value expected1_1
-| Error e -> "Failed" + e
-|> printfn "%A\n"
+let expected12 = 31
+evaluate Day1.solve2 "Samples\Sample1.txt" expected12 "Day1 puzzle 2"
